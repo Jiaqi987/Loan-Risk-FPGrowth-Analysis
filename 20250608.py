@@ -85,7 +85,7 @@ for i, itemset1 in enumerate(frequent_itemsets['itemsets']):
 
 data_matrix_df = pd.DataFrame(data_matrix, columns=frequent_itemsets['itemsets'], index=frequent_itemsets['itemsets'])
 
-# ================== 修复后的热图部分 ==================
+# ================== 热图 ==================
 # 设置全局字体和图像分辨率
 plt.rcParams['font.size'] = 8
 plt.rcParams['font.family'] = 'DejaVu Sans'  # 使用更兼容的字体
@@ -121,7 +121,7 @@ plt.tight_layout()  # 自动调整布局
 plt.savefig('itemset_overlap_heatmap.png', dpi=600, bbox_inches='tight')
 plt.close()  # 关闭当前图形，避免重叠
 
-# ================== 修复后的树状图部分 ==================
+# ================== 树状图 ==================
 # 确保values变量被正确定义
 values = [support for antecedents, consequents, support in rules_data]
 labels = []
@@ -150,4 +150,4 @@ plt.title('Treemap of Association Rules', fontsize=12)
 plt.savefig('association_rules_treemap.png', dpi=600, bbox_inches='tight')
 plt.close()
 
-print("修复后的图像已保存为高分辨率PNG文件")
+print("图像已保存为高分辨率PNG文件")

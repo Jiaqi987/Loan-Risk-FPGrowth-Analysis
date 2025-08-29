@@ -92,7 +92,7 @@ Run `fp_growth_lost_linking_association_mining_loan_risk.py` to independently ex
 ## V. Data/Code Citation
 The project’s data and code are stored in a GitHub repository (link: https://github.com/Jiaqi987/Loan-Risk-FPGrowth-Analysis) and have been assigned a persistent DOI via Zenodo (DOI: 10.5281/zenodo.15714220). For citations, use:
 
-> Data and code are from: v1.0: Loan Risk FPGrowth Analysis (Data & Code), accessible via DOI: 10.5281/zenodo.15714220 or the GitHub repository.
+> Data and code are from: v1.1: Loan Risk FPGrowth Analysis (Data & Code), accessible via DOI: 10.5281/zenodo.15714220 or the GitHub repository.
 
 
 ## Notes
